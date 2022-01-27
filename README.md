@@ -70,7 +70,7 @@ To verify that all node types inherit properties and methods from the node objec
 
 ```JS 
 
-const nodeAnchor = document.quersySelector('a');
+const nodeAnchor = document.querySelector('a');
 let props = [];
 for (keys in nodeAnchor) {
     props.push(keys);
